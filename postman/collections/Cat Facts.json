@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "2c3f0459-a9d4-4c86-a190-36958b44db3e",
 		"name": "Cat Facts",
-		"description": "Contact Support:\n Name: Amanda Nickels\n Email: admin@admin.com",
+		"description": "Contact Support:  \nName: Amanda Nickels  \nEmail: [admin@admin.com](https://mailto:admin@admin.com)\n\nThese cat APIs are intended to bring joy to cat lovers. _Please use responsibly._\n\n<img src=\"https://content.pstmn.io/40c0556e-7f7e-4ad2-8954-090c76588ed7/Y2F0LmdpZg==\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "25998796-2c3f0459-a9d4-4c86-a190-36958b44db3e"
 	},
@@ -86,9 +86,11 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/fact?max_length=success",
+									"raw": "https://catfact.ninja/fact?max_length=success",
+									"protocol": "https",
 									"host": [
-										"{{baseUrl}}"
+										"catfact",
+										"ninja"
 									],
 									"path": [
 										"fact"
@@ -251,9 +253,11 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/facts?max_length=success&limit=success",
+									"raw": "https://catfact.ninja/facts?max_length=success&limit=success",
+									"protocol": "https",
 									"host": [
-										"{{baseUrl}}"
+										"catfact",
+										"ninja"
 									],
 									"path": [
 										"facts"
@@ -393,9 +397,11 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/breeeeeeeeeeeeeeeeeeeeds?limit=10",
+									"raw": "https://catfact.ninja/breeeeeeeeeeeeeeeeeeeeds?limit=10",
+									"protocol": "https",
 									"host": [
-										"{{baseUrl}}"
+										"catfact",
+										"ninja"
 									],
 									"path": [
 										"breeeeeeeeeeeeeeeeeeeeds"
@@ -518,7 +524,7 @@
 	],
 	"variable": [
 		{
-			"id": "d7a09870-e59d-46c8-891c-1623ca9c6be5",
+			"id": "a5e8169c-5d0e-4cd5-9f0a-6efaed9d1504",
 			"key": "baseUrl",
 			"value": "https://catfact.ninja",
 			"type": "any"
