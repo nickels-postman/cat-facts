@@ -362,18 +362,18 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/breeeeeeeeeeeeeeeeeeeeds?limit=10",
+							"raw": "{{baseUrl}}/breeds?limit=10",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
-								"breeeeeeeeeeeeeeeeeeeeds"
+								"breeds"
 							],
 							"query": [
 								{
-									"description": "This is a description",
 									"key": "limit",
-									"value": "10"
+									"value": "10",
+									"description": "This is a description"
 								}
 							]
 						},
