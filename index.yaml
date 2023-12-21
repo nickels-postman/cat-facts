@@ -2,7 +2,7 @@ openapi: 3.0.0
 x-apiname: catFacts
 x-responsetime: 10000
 info:
-  title: Cat Facts 
+  title: Cat Facts API
   contact:
     email: admin@admins.com
     url: https://catfact.ninja
@@ -14,7 +14,7 @@ info:
   version: 1.0.0
 servers:
   - url: https://catfact.ninja
-    description: prodasdsadasdasd
+    description: prod
 paths:
   /breeds:
     get:
@@ -184,3 +184,5 @@ tags:
   - name: Facts
     description: Cat Facts
   - name: Breeds
+security:
+  - BasicAuth: []
