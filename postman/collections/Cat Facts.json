@@ -346,133 +346,134 @@
 		},
 		{
 			"name": "Breeds",
-			"item": [],
-			"id": "f5c1506a-5351-46fb-9965-4f703deb3129"
-		},
-		{
-			"name": "Returns a list of breeds",
-			"id": "9918ec63-cfd3-4968-866d-7238a42a2f26",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					}
-				],
-				"url": {
-					"raw": "{{baseUrl}}/breeeeeeeeeeeeeeeeeeeeds?limit=10",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"breeeeeeeeeeeeeeeeeeeeds"
-					],
-					"query": [
+			"item": [
+				{
+					"name": "Returns a list of breeds",
+					"id": "9918ec63-cfd3-4968-866d-7238a42a2f26",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/breeds?limit=10",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"breeds"
+							],
+							"query": [
+								{
+									"description": "This is a description",
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						},
+						"description": "Returns a list of breeds"
+					},
+					"response": [
 						{
-							"description": "This is a description",
-							"key": "limit",
-							"value": "10"
+							"id": "80804f4a-3830-43fc-90dc-a82b398286a9",
+							"name": "Normal operation",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"description": "Added as a part of security scheme: basic",
+										"key": "Authorization",
+										"value": "Basic <credentials>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/breeeeeeeeeeeeeeeeeeeeds?limit=10",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"breeeeeeeeeeeeeeeeeeeeds"
+									],
+									"query": [
+										{
+											"description": "This is a description",
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"breed\": \"dolore sit commodo\",\n  \"country\": \"quis elit\",\n  \"origin\": \"officia labore ea Excepteur\",\n  \"coat\": \"culpa consectetur ut\",\n  \"pattern\": \"sit\"\n}"
+						},
+						{
+							"id": "a84f43bf-d2db-4b0f-80ae-68e0482e5999",
+							"name": "Server exception",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"description": "Added as a part of security scheme: basic",
+										"key": "Authorization",
+										"value": "Basic <credentials>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/breeeeeeeeeeeeeeeeeeeeds?limit=10",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"breeeeeeeeeeeeeeeeeeeeds"
+									],
+									"query": [
+										{
+											"description": "This is a description",
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"breed\": \"officia aliqua\",\n  \"country\": \"est officia sunt in aliqua\",\n  \"origin\": \"anim Ut\",\n  \"coat\": \"Excepteur adipisicing Ut\",\n  \"pattern\": \"adipisicing Duis ea\"\n}"
 						}
 					]
-				},
-				"description": "Returns a list of breeds"
-			},
-			"response": [
-				{
-					"id": "80804f4a-3830-43fc-90dc-a82b398286a9",
-					"name": "Normal operation",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
-								"description": "Added as a part of security scheme: basic",
-								"key": "Authorization",
-								"value": "Basic <credentials>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/breeeeeeeeeeeeeeeeeeeeds?limit=10",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"breeeeeeeeeeeeeeeeeeeeds"
-							],
-							"query": [
-								{
-									"description": "This is a description",
-									"key": "limit",
-									"value": "10"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "success"
-				},
-				{
-					"id": "a84f43bf-d2db-4b0f-80ae-68e0482e5999",
-					"name": "Server exception",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
-								"description": "Added as a part of security scheme: basic",
-								"key": "Authorization",
-								"value": "Basic <credentials>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/breeeeeeeeeeeeeeeeeeeeds?limit=10",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"breeeeeeeeeeeeeeeeeeeeds"
-							],
-							"query": [
-								{
-									"description": "This is a description",
-									"key": "limit",
-									"value": "10"
-								}
-							]
-						}
-					},
-					"status": "Internal Server Error",
-					"code": 500,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "unsuccessful"
 				}
-			]
+			],
+			"id": "f5c1506a-5351-46fb-9965-4f703deb3129"
 		}
 	],
 	"auth": {
