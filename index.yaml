@@ -177,7 +177,7 @@ components:
         length:
           title: Length
           description: Length
-          type: integer
+          type: integerΩ
           format: int32
       type: object
 tags:
