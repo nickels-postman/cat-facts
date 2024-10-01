@@ -21,7 +21,7 @@ paths:
       summary: Returns a list of breeds
       tags: 
         - Breeds
-      description: Returns a list of breeds
+      description: Returns a list of breeds elephant
       operationId: getBreeds
       parameters:
         - name: limit
