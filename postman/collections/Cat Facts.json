@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "2c3f0459-a9d4-4c86-a190-36958b44db3e",
 		"name": "Cat Facts",
-		"description": "Contact Support:  \nName: Amanda Nickels  \nEmail: [admin@admin.com](https://mailto:admin@admin.com)\n\nThese cat APIs are intended to bring joy to cat lovers. _Please use responsibly._\n\n<img src=\"https://content.pstmn.io/40c0556e-7f7e-4ad2-8954-090c76588ed7/Y2F0LmdpZg==\">",
+		"description": "Contact Support:  \nName: Amanda Nickels  \nEmail: [admin@admin.com](https://mailto:admin@admin.com)\n\nThese cat APIs are intended to bring joy to cat lovers. _Please use responsibly._\n\n<img src=\"https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTF4dnBoamdudHZjYXdoeXd2dXBqOGJvMzdjamdoMXA1dzRlMzVhciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lXiRzPb8C5JTJcfPq/giphy.gif\" alt=\"\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "25998796-2c3f0459-a9d4-4c86-a190-36958b44db3e"
 	},
@@ -222,14 +222,14 @@
 							],
 							"query": [
 								{
-									"description": "length",
 									"key": "max_length",
-									"value": "-69621848"
+									"value": "-69621848",
+									"description": "length"
 								},
 								{
-									"description": "limit the amount of results returned",
 									"key": "limit",
-									"value": "68331213"
+									"value": "68331213",
+									"description": "limit the amount of results returned"
 								}
 							]
 						},

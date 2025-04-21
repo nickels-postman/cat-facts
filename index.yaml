@@ -2,7 +2,7 @@ openapi: 3.0.0
 x-apiname: catFacts
 x-responsetime: 10000
 info:
-  title: Cat Facts API 2
+  title: Cat Facts API 2324234323424
   contact:
     email: admin@admin.com
     url: https://catfact.ninja
